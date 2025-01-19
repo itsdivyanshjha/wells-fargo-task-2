@@ -13,7 +13,7 @@ public class Advisor {
     @GeneratedValue()
     private long advisorId;
 
-    @Column(nullable = false)
+    
     private String firstName;
 
     @Column(nullable = false)
